@@ -41,7 +41,7 @@
         - vertical align
 
     # Exercise - Group Activity
-    [Exercise W1D2](Week1/Session2/Exercise/exercise.png)
+    [Exercise W1D2](./Exercise/exercise.png)
 
 
 
