@@ -3,10 +3,10 @@
 - Introduction
 - VS Code
 - Requirements
-    - 90% Assignments (6/7)
+    - 90% Core Assignments (6/7)
     - 80% Discussion Questions (Attendance 6/8)
     - Everyone check if you can answer the discussion questions
-    - Exam
+    - Exam (80%) 
 
 - Discord
  - Formatting code blocks
@@ -28,10 +28,12 @@
 
 - Navigating the Learn Platform
 
+- Friday Night Highlights!!!
+
 -  [Lecture Videos Page](https://login.codingdojo.com/m/283/8978/60942)
 
 -  [TA Hall](https://docs.google.com/document/d/15B3VzKyqk1o9YbqA9Im1LDvTsO3M-8Uk8meeqnob3IE/edit)
-
+    
 - Establishing a workable schedule
 
 - 20 Minute rule
@@ -74,6 +76,10 @@ Lecture
     - p
     - a
 
+## Media Elements
+    - img
+    - video
+
 - Block VS Inline Elements
 
 ## Lists
@@ -99,6 +105,12 @@ Lecture
     - Why do we indent? 
         - Organization/Readability
         - Parent-Child relationship
+
+# Next Lecture
+    - Intro to CSS
+    - Selectors
+    - Classes and Ids
+    - Box Model
 
 
 
