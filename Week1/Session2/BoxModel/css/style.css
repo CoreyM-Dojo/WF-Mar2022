@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    margin: 25px auto;
+    /* margin: 25px auto; */
 }
 
 div.container {
     width: 700px; 
-    height: 900px;
-    margin: 0 auto;
+    height: 1000px;
+    margin: 20px auto;
     background-color: black;
     padding: 20px;
 }
@@ -39,10 +39,40 @@ div.margin {
     width: 350px;
     height: 350px;
     background-color: magenta;
+    margin-bottom: 20px;
 }
 
 img {
     display: block;
     margin: 0 auto;
+    /* margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px; */
+    margin: 5px 20px 5px 20px;
+    /* margin: 5px 20px 5px 10px; */
+    margin: 5px 20px;
     width: 300px;
+    border: 2px solid red;
+    padding: 20px;
+    background-color:orange;
+}
+
+
+.ib-example {
+    /* width: 600px; */
+    height: 300px;
+    background-color:beige;
+}
+
+.ib-example div {
+    height: 150px;
+    width: 150px;
+    background-color:aquamarine;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#middle {
+    height: 200px;
 }
