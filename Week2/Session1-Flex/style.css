@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+body {
+    display: flex;
+    
+    align-items: center;
+    background-color: black;
+    min-height: 600px;
+}
+
+div.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid red;
+    width: 1000px;
+    height: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    border: 1px solid rebeccapurple;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    height: 700px;
+    border: 1px solid rebeccapurple;
+    width: 100%;
+
+}
+
+footer {
+    height: 50px;
+    border: 1px solid rebeccapurple;
+    width: 100%;
+}
+
+.nav {
+    height: 50px;
+    width: 200px;
+    border: 1px solid lime;
+}
+
+.blocks {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    height: 200px;
+    width: 100%; 
+    border: 1px solid lime;
+}
+
+.main-blocks {
+    height: 150px;
+    width: 150px; 
+    border: 1px solid orange;
+}
+
+.middle {
+    justify-content:center;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 250px;
+}
+
+#overlap {
+    /* margin-top: -250px; */
+}
+
+.top div {
+    height: 50px;
+}
+
+#upper {
+    align-self: flex-start;
+}
+
+#lower {
+    align-self: flex-end;
+
+}
+
+.bottom {
+    flex-wrap: wrap
+}
