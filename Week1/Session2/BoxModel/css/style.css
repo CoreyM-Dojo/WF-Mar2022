@@ -9,6 +9,7 @@ div.container {
     width: 700px; 
     height: 900px;
     margin: 0 auto;
+    padding: auto 0px;
     background-color: black;
     padding: 20px;
 }
