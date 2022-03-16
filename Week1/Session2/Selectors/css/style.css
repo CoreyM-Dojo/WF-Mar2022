@@ -1,0 +1,51 @@
+/* selector { 
+    property:value;
+    property:value;
+    property:value;
+
+} */
+
+* {
+    color: red;
+}
+
+p {
+    color: purple;
+}
+
+a {
+    color: blue
+}
+
+img {
+    height: 300px;
+}
+
+.black-bg {
+    background-color:black;
+}
+
+.aq-shadow {
+    text-shadow:0 2px 2px aquamarine;
+}
+
+#bigger-font {
+    font-size: 1.2em;
+}
+
+div.links a {
+    color: green;
+}
+
+div.links a.no-dec {
+    text-decoration: none;
+}
+
+form.login label {
+    color: orange;
+}
+
+p, a {
+    color: black;
+    text-decoration: none;
+}
