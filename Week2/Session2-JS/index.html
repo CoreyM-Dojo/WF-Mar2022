@@ -10,14 +10,15 @@
 <body>
     <div class="container">
         <div class="main">
-            <button>Click me</button>
-            <img src="cloud.jpg" alt="Cloud Strife">
+            <button id="alertBtn" onclick="alert('You clicked a button')">Click me</button>
+            <img class="ffpic" id="dropdownTarget" onmouseover="this.src = './tifa.jpg'" onmouseout="this.src='./cloud.jpg'" src="cloud.jpg" alt="Cloud Strife">
             <form>
-                <select>
+                <select id="dropdown" onchange="changePic(this)">
                     <option>Cloud</option>
                     <option>Tifa</option>
                 </select>
             </form>
+            <button id="clear" onclick="clearPage(this)">Reset</button>
         </div>
     </div>
     <script src="script.js"></script>

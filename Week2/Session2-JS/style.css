@@ -11,7 +11,7 @@ body {
 div.container {
     background-color: silver;
     margin: 0 auto;
-    background-color: white;
+    /* background-color: white; */
     width: 1000px;
     height: 600px;
     display: flex; 

@@ -6,11 +6,21 @@
     - console.log() One of the most important built in javascript functions you will ever learn. 
     - Brief review on syntax
 
-## Simple Data Types
+## Variables
+    - var
+    - identifier
+    - equality set ( = )
+    - value (reference to the identifier)
+
+** Whatdo we putin variables? **
+
+## Primitive Data Types
 
     - Strings
     - Number or Integers
     - Boolean
+
+** How can we interact with variables?
 
 ## Operators
 
@@ -18,29 +28,16 @@
     - -
     - /
     - *
-    - =
-    - ==
-    - ===
+    - = (Assigns)
+    - == (checks equality between 2 variables)
+    - ! (the NOT operator - flips the comparison - != is NOT EQUAL TO)
 
-## Operator shortcuts
-    - ++
-    - --
-    - -=
-    - +=
+## Operator shortcuts -> (Extra)
+    - ++ -> a++ is short for a = a+1
+    - -- -> a-- is short for a = a-1
+    - -= -> a-=b is short for a = a-b
+    - += -> a+=b is short for a = a+b
 
-## Variables
-    - var
-    - identifier
-    - equality set ( = )
-    - value (reference to the identifier)
-
-
-
-## Strings
-
-    - Makeup
-    - String interpolation
-    - 
 
 
 ## Strings
@@ -57,37 +54,20 @@
     - true 
     - false
 
-## Others
-    - undefined
-    - null
-    - NaN
-
-## Container Data Types
-    - Arrays
-    - Objects
-
-** EVERYTHING IN JS IS AN OBJECT **
-
-## Conditionals
-
-    - if
-    - else if
-    - else
 
 ## Functions
     - function name () { Body }
-    - calling/invoking functions
-    - arguments -> Go in the function itself
+    - calling/invoking functions -> name()
+    - arguments -> Placeholder variables for data passd into the function
     - Parameters -> Used to assign value to the arguments
 
 # DOM Manipulation
     - What is it?
     - Attaching script to your html
-    - document.querySelector()
-    - innerText vs innerHTML
     - html events
-    - Calling functions from the html
     - the 'this' keyword
+    - document.querySelector()
+    - Calling functions from the html
     - Putting it all together
         - onclick
         - onchange
@@ -96,7 +76,7 @@
 
     ** Warning: There is a css selector for when you hover over objects. Do not use this on the exam. I will have to take off points. **
 
-    
+
 
 
 
