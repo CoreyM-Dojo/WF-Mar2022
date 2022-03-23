@@ -1,0 +1,54 @@
+* { 
+ 
+    margin: 0; 
+    padding:0; 
+    box-sizing:border-box; 
+ 
+}
+
+div.container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    width: 1000px;
+    border: 1px solid red;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: red; 
+    background-color: black;
+    height: 100px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 700px;
+    padding: 20px;
+    background-color: silver;
+
+}
+div.likes {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 200px;
+    border: solid black 1px;
+    background-color: darkcyan;
+}
+
+button {
+    font-weight:bold;
+    background-color: aquamarine;
+    width: 500px;
+    height:100px;
+    color: green;
+    font-size: 2em;
+    border-radius: 20px;
+}
